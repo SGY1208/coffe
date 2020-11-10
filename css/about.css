@@ -1,0 +1,80 @@
+@charset "utf-8";
+/*公用属性*/
+*{
+	margin:0;
+	padding:0;
+}
+	body{
+			width: 100%;
+			height: 100%;
+			background-image: url(../img/bg.jpg);
+			background-attachment: fixed;/*固定背景图片*/
+			margin: auto;
+		}
+	/*内容部分*/	
+	.center{
+		width: 1170px;
+		height: auto;
+		margin: 0 auto;
+		margin-bottom: 20px;	
+	}
+	
+	.first-box{
+		width: 1170px;
+		height: auto;
+		border:1px solid transparent;
+		background: rgba(255,255,255,0.9);
+	}
+	#first-hr{
+		margin-top: 50px;
+		/*padding-top: 50px;*/
+	}
+	#first-hr2{
+		margin-top: 20px;
+	}
+	.first-img{
+		padding-right: 30px;
+		padding-top: 18px;
+		float:right; 
+		margin:0 5px 5px 20px;
+		width: 400px;
+		height: 250px;
+	}
+	.first-p{
+		padding-top: 18px;
+		margin-left: 30px;
+		margin-right: 20px;
+		font-family: '宋体';
+		font-size: 1.4em;	
+		margin-bottom: 4px;
+	}
+	.first-p2,.first-p3{
+		margin-left: 30px;
+		margin-right: 20px;
+		font-family: '宋体';
+		font-size: 1.4em;	
+	}
+	.first-p3{
+		margin-bottom: 42px;	
+	}
+	.second-box{
+		width: 1170px;
+		height: 485px;
+		margin: auto;
+		margin-top: 14px;
+		border:1px solid transparent;
+		background: rgba(255,255,255,0.9);
+	}
+	.second-img{
+		width: 318px;
+		height: 250px;
+		margin-left: 54px;
+		margin-top: 36px;
+		float: left;
+	}
+	.second-img img{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+		float: left;
+	}

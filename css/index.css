@@ -1,0 +1,232 @@
+@charset "utf-8";
+/*公用属性*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+@font-face {font-family: 'iconfont';
+    src: url('../img/font/iconfont.eot'); 
+    src: url('../img/font/iconfont.eot') format('embedded-opentype'),
+    url('../img/font/iconfont.woff') format('woff'),
+    url('../img/font/iconfont.ttf') format('truetype'),
+    url('../img/font/iconfont.svg#iconfont') format('svg');
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link,a:visited{
+	color:#5e5e5e;
+}
+
+	body{
+			width: 100%;
+			height: 100%;
+			background-image: url(../img/bg.jpg);
+			background-attachment: fixed;/*固定背景图片*/
+			margin: auto;
+		}
+		.brand{
+			width: 100%;
+			height: 300px;
+
+		}
+		.brand-tittle{
+			width: 100%;
+			display: inherit;
+		    margin: 0;
+		    padding: 30px 0 10px;
+		    text-align: center;
+		    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+		    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+		    font-size: 5em;
+		    font-weight: 700;
+		    line-height: normal;
+		    color: #fff;
+		}
+		.brand-address{
+			width: 100%;
+			display: inherit;/*规定应该从父元素继承 display 属性的值。*/
+		    margin: 0;
+		    padding: 0 0 40px;
+		    text-align: center;
+		    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+		    text-transform: uppercase;/*定义仅有大写字母。*/
+		    font-size: 1.25em;
+		    font-weight: 400;
+		    letter-spacing: 3px;/*设置字符间距*/
+		    color: #fff;
+		}
+		.navbar{
+			width: 100%;
+			height: 88px;
+			/*background-color: red;*/
+			/*border:1px solid pink;*/
+		    border: none;
+		    background: #fff;
+		    background: rgba(255,255,255,0.9);
+		    position: relative;
+		    min-height: 50px;
+		    margin-bottom: 20px;
+		    border: 1px solid transparent;
+
+		}
+		.banner{
+			width: 600px;
+			height: 88px;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.nav-ul{
+			list-style: none;
+			margin: 0 auto;
+			text-transform: uppercase;/*定义仅有大写字母。*/
+		    font-weight: 400;
+		    letter-spacing: 3px;/*设置字符间距*/
+
+		}
+		.nav-ul li{
+			float: left;
+			position: relative;
+    		display: block;
+    		margin: 0;
+		}
+
+		.nav-ul li a{
+			float: left;
+			width: 135px;
+			height: 91px;
+			font-size: 1.25em;
+			margin-top: 30px;
+		}
+		.nav-ul li a:link{
+			text-decoration: none;/*去除a标签的下划线*/
+		}
+		.nav-ul li a:visited{
+			color: #333;/*设置a标签的字体颜色*/
+		}
+
+		.container{
+			width: 1170px;
+			margin: 0 auto;
+			position: relative;
+			display: block;
+		}
+	.box-top{
+		margin-bottom: 20px;
+		padding: 30px 15px;
+		background: #fff;
+		background: rgba(255,255,255,0.9);
+	}
+/*图片轮播*/
+	.wide{
+		width: 1110px;
+		height: 435px;
+		margin: 0 auto;
+	}
+	#ad0,#ad1,#ad2,#ad3,#ad4{
+		width: 1110px;
+		height: 435px;
+		margin: 0 auto;
+		position: absolute;
+		left: auto;
+		top: 30px;
+		z-index: 1;/*z-index 属性设置元素的堆叠顺序。拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面。*/
+	}
+	.ad-img{	
+		width: 100%;
+		height: 100%;
+	}
+	.brand-before,.brand-name {
+    	text-transform: capitalize;/*文本中的每个单词以大写字母开头。*/
+	}
+	.brand-before {
+		margin: 15px 0;
+		font-size: 2em;
+		font-weight: 400;
+    	line-height: 1;
+    	color: #777;
+	}
+	.brand-name {
+		margin: 0;
+		font-size: 4em;
+		font-family: "Monotype Corsiva";   
+	}
+	.tagline-divider {
+		margin: 15px auto 3px;
+		max-width: 250px;
+		border-color: #999999;
+	}
+/*介绍部分*/
+	.box-center{
+		margin-bottom: 20px;
+		padding: 30px 15px;
+		background: rgba(255,255,255,0.9);
+	}
+	.box {
+		margin-bottom: 20px;
+		padding: 30px 15px;
+		background: #fff;
+		background: rgba(255,255,255,0.9);
+	}
+	.tagline-divider1 {
+		margin: 4px auto 18px;
+		max-width: 400px;
+		border-color: #999999;
+	}
+	.tagline-divider2 {
+		margin: 15px auto 3px;
+		max-width: 400px;
+		border-color: #999999;
+	}
+	.intro-text {
+		text-transform: uppercase;
+		font-size: 1.25em;
+		font-weight: lighter;
+		letter-spacing: 1px;
+		text-align: center;
+		margin: auto;
+	}
+	.img-border {
+		    float: none;
+		    margin: 0 auto 0;
+		    width: 250px;
+		    height: 150px;
+		    /*border: #999999 solid 1px;*/
+		}
+		
+	.img-left {
+		float:left; 
+		margin:0 5px 5px 0;
+		    
+		}
+	
+	.p{
+		margin-top: 8px;
+		font-family: '宋体';
+		font-size: 1.4em;	
+	}
+
+	.p1{
+			margin-top: 8px;
+			font-family: '宋体';
+			font-size: 1.4em;
+			float: none;
+		}
+		
+		
+		.fotter{
+			width: 100%;
+			margin-bottom: 20px;
+		    padding: 30px 15px;
+		    background: #fff;
+		    background: rgba(255,255,255,0.9);
+		}
+		.fotter-text{
+			text-align: center;
+			font-size: 1.4em;
+		}
